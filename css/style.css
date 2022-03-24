@@ -1,0 +1,114 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+hr {
+    margin: 15px 0;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: chocolate;
+    margin: 0;
+    height: 90px;
+    border-bottom: 10px solid gray;
+}
+
+h1 {
+    height: 90px;
+    display: inline-block;
+    float: left;
+    line-height: 90px;
+    text-align: center;
+    font-size: 50px;
+    color: azure;
+    padding: 0 0 0 5%;
+    margin: 0;
+}
+
+nav {
+    height: 90px;
+    display: inline-block;
+    float: right;
+    line-height: 90px;
+    text-align: center;
+    padding-right: 5%;
+}
+
+nav ul {
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+figure h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 60px 0 40px 0;
+}
+
+#moon {
+    height: 300px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+form {
+    width: 300px;
+    display: block;
+    margin: 200px auto;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+form h2 {
+    text-align: center;
+}
+
+form input {
+    display: relative;
+    margin-left: 30px;
+    margin: 10px 20px;
+    padding: 5px 40px;
+}
+
+footer {
+    height: 70px;
+    width: 100%;
+    background-color: chocolate;
+    color: azure;
+}
+
+footer h2 {
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-bottom: 10px solid gray;
+}
